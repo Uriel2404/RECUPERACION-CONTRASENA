@@ -1,0 +1,41 @@
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    height: 100vh;
+}
+.form-container {
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.form-container .header-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+.form-container input,
+.form-container button {
+    margin: 20px 0;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+}
+.blurred {
+    filter: blur(24px);
+    pointer-events: none;
+    opacity: 0.5;
+}
+.hidden {
+    display: none;
+}
+.invalid-feedback {
+    font-size: 110%;
+}
