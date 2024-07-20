@@ -96,5 +96,3 @@ function Login({ onForgotPassword }) {
 }
 
 export default Login;
-
-hola
